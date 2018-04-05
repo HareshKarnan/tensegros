@@ -118,7 +118,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/pi/tensegros/build/gtest/cmake_install.cmake")
   include("/home/pi/tensegros/build/encoder_pos/cmake_install.cmake")
+  include("/home/pi/tensegros/build/kalman_filter/cmake_install.cmake")
   include("/home/pi/tensegros/build/motor_comms/cmake_install.cmake")
+  include("/home/pi/tensegros/build/motor_comms_test/cmake_install.cmake")
   include("/home/pi/tensegros/build/tenseg_control/cmake_install.cmake")
 
 endif()

@@ -1,0 +1,8 @@
+prefix=/home/pi/tensegros/install
+
+Name: kalman_filter
+Description: Description of kalman_filter
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/pi/tensegros/install/lib 
+Requires: 

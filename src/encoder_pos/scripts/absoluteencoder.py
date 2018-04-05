@@ -11,7 +11,7 @@ GPIO.setmode(GPIO.BOARD)
 PIN_CLK = [11,16]
 PIN_DAT = [5,3,7,8,10,12]
 PIN_CS  = [13,18]
-offset = np.array([-38,283,-148,-138.86,-287.22,281])
+offset = np.array([-139,306,-167,-148,-132,164])
 coeff = np.array([1,-1,1,1,1,-1])
 coeff = np.multiply(360.0/(1024.0),coeff)
 delay = 0.0000005
@@ -51,7 +51,9 @@ def readpos():
 
 
 def talker():
+    # topic name : encoder_pos
     pub = rospy.Publisher('encoder_pos',Int32MultiArray, queue_size=10)
+    # name of node : encoder
     rospy.init_node('encoder', anonymous=True)
     # pin setup done here
     try:
@@ -67,8 +69,8 @@ def talker():
     time.sleep(0.5)
     while not rospy.is_shutdown():
         a=readpos()
-	rospy.loginfo(str(a))
-	pub.publish(Int32MultiArray(data=a))
+        rospy.loginfo(str(a))
+        pub.publish(Int32MultiArray(data=a))
 
 
 if __name__ == '__main__' :

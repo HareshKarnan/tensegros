@@ -47,6 +47,13 @@
 /home/pi/tensegros/build/encoder_pos/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/pi/tensegros/build/encoder_pos/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/pi/tensegros/build/encoder_pos/CMakeFiles/install.dir
+/home/pi/tensegros/build/kalman_filter/CMakeFiles/install/local.dir
+/home/pi/tensegros/build/kalman_filter/CMakeFiles/install.dir
+/home/pi/tensegros/build/kalman_filter/CMakeFiles/test.dir
+/home/pi/tensegros/build/kalman_filter/CMakeFiles/list_install_components.dir
+/home/pi/tensegros/build/kalman_filter/CMakeFiles/install/strip.dir
+/home/pi/tensegros/build/kalman_filter/CMakeFiles/edit_cache.dir
+/home/pi/tensegros/build/kalman_filter/CMakeFiles/rebuild_cache.dir
 /home/pi/tensegros/build/motor_comms/CMakeFiles/install/local.dir
 /home/pi/tensegros/build/motor_comms/CMakeFiles/install.dir
 /home/pi/tensegros/build/motor_comms/CMakeFiles/test.dir
@@ -54,6 +61,13 @@
 /home/pi/tensegros/build/motor_comms/CMakeFiles/install/strip.dir
 /home/pi/tensegros/build/motor_comms/CMakeFiles/edit_cache.dir
 /home/pi/tensegros/build/motor_comms/CMakeFiles/rebuild_cache.dir
+/home/pi/tensegros/build/motor_comms_test/CMakeFiles/install/local.dir
+/home/pi/tensegros/build/motor_comms_test/CMakeFiles/install.dir
+/home/pi/tensegros/build/motor_comms_test/CMakeFiles/test.dir
+/home/pi/tensegros/build/motor_comms_test/CMakeFiles/list_install_components.dir
+/home/pi/tensegros/build/motor_comms_test/CMakeFiles/install/strip.dir
+/home/pi/tensegros/build/motor_comms_test/CMakeFiles/edit_cache.dir
+/home/pi/tensegros/build/motor_comms_test/CMakeFiles/rebuild_cache.dir
 /home/pi/tensegros/build/tenseg_control/CMakeFiles/install/local.dir
 /home/pi/tensegros/build/tenseg_control/CMakeFiles/install.dir
 /home/pi/tensegros/build/tenseg_control/CMakeFiles/test.dir

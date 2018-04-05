@@ -322,6 +322,12 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+kalman_filter_BINARY_DIR:STATIC=/home/pi/tensegros/build/kalman_filter
+
+//Value Computed by CMake
+kalman_filter_SOURCE_DIR:STATIC=/home/pi/tensegros/src/kalman_filter
+
 //Path to a library.
 lib:FILEPATH=/home/pi/ros_catkin_ws/install_isolated/lib/librostime.so
 
@@ -333,6 +339,12 @@ motor_comms_BINARY_DIR:STATIC=/home/pi/tensegros/build/motor_comms
 
 //Value Computed by CMake
 motor_comms_SOURCE_DIR:STATIC=/home/pi/tensegros/src/motor_comms
+
+//Value Computed by CMake
+motor_comms_test_BINARY_DIR:STATIC=/home/pi/tensegros/build/motor_comms_test
+
+//Value Computed by CMake
+motor_comms_test_SOURCE_DIR:STATIC=/home/pi/tensegros/src/motor_comms_test
 
 //The directory containing a CMake configuration file for roscpp_serialization.
 roscpp_serialization_DIR:PATH=/home/pi/ros_catkin_ws/install_isolated/share/roscpp_serialization/cmake
@@ -457,7 +469,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
